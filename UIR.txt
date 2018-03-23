@@ -1,0 +1,12 @@
+onst WEATHER_API_KEY = "f5851048d6c32427b4b2334d6099a942";
+const API_STEM = "http://api.openweathermap.org/data/2.5/weather?";
+
+function zipUrl(zip) {
+  return `${API_STEM}q=${zip}&units=imperial&APPID=${WEATHER_API_KEY}`;
+}
+
+http://api.openweathermap.org/data/2.5/weather?q=95124&units=imperial&APPID=f5851048d6c32427b4b2334d6099a942
+
+{"coord":{"lon":15.09,"lat":37.5},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":46.4,"pressure":1008,"humidity":75,"temp_min":46.4,"temp_max":46.4},"visibility":10000,"wind":{"speed":9.17,"deg":270},"clouds":{"all":0},"dt":1521500100,"sys":{"type":1,"id":5760,"message":0.0046,"country":"IT","sunrise":1521435815,"sunset":1521479475},"id":2525068,"name":"Catania","cod":200}
+
+
